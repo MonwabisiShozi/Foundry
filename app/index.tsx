@@ -1,4 +1,3 @@
-import { Link } from "expo-router";
 import { Text, View } from "react-native";
 import "./globals.css";
 
@@ -8,7 +7,7 @@ export default function index() {
         <Text className="text-5xl text-dark-200 font-Bold">
           Welcome!
         </Text>
-        <Link href="/onboarding">Onboarding</Link>
+      
       </View>
   );
 }
